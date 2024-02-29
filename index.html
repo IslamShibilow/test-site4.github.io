@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"> 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Fajr cafe</title>
+</head>
+<body class="body">
+    <header class="header">
+        <nav class="nav">
+            <img src="images/logo.png">
+            <div class="nav-links-box">
+                <a href="#main" class="nav-links nav-links-margin">Главная</a>
+                <a href="#menu" class="nav-links nav-links-margin">Меню</a>
+                <a href="#map" class="nav-links nav-links-margin">Карта</a>
+                <a href="#footer" class="nav-links">Контакты</a>
+            </div>
+            <div class="insta_links">
+                <img src="images/instagram.svg" class="insta_img">
+                <a href="https://www.instagram.com/cafe_fajr?igsh=djNtcWE5YW8xYjNj" class="insta_link">@cafe_fajr</a>
+            </div>
+
+            <div class="burger">
+                <span></span>
+            </div>
+
+            <ul class="nav-list">
+                <li class="list-items"><a href="">Главная</a></li>
+                <li class="list-items"><a href="">Меню</a></li>
+                <li class="list-items"><a href="">Карта</a></li>
+                <li class="list-items"><a href="">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="present_block" id="main">
+         <div class="present_block-content">
+            <div class="present_block-text">
+                <h1 class="present_block-h1">Cafe Fajr</h1>
+                <h2 class="present_block-h2">Исскуство<br>в каждом кусочке стейка</h2>
+            </div>
+            <img src="images/steake.png" class="present-image">
+         </div>   
+    </div>
+
+    <div class="menu_block" id="menu">
+        <img src="images/line.png" class="line">
+        <h1 class="menu_block-h1">Наше меню</h1>
+
+        <div class="page">
+            <div class="menu_links">
+                <button class="btn underline submit_1">Мангал</button>
+                <button class="btn submit_2">Гарниры</button>
+                <button class="btn submit_3">Соусы</button>
+                <button class="btn submit_4">Чай</button>
+                <button class="btn d-none submit_5">Напитки</button>
+                <button class="btn d-none submit_6">Коктейли</button>
+                <button class="btn d-none submit_7">Завтраки</button>
+                <button class="btn d-none submit_8">Салаты</button>
+                <button class="btn d-none submit_9">Вайнахская кухня</button>
+                <button class="btn d-none submit_10">Основные блюда</button>
+                <button class="btn d-none submit_11">Пасты</button>
+                <button class="btn d-none submit_12">Супы</button><br>
+                <div>
+                <button class="menu_links-button show_more">Показать ещё</button>
+                </div>
+            </div>
+
+            <div class="menu_links_mobile">
+                <div class="menu_buttons_mobile d-none">
+                    <button class="btn underline mobile_submit_1">Мангал</button>
+                    <button class="btn mobile_submit_2">Гарниры</button>
+                    <button class="btn mobile_submit_3">Соусы</button>
+                    <button class="btn mobile_submit_4">Чай</button>
+                    <button class="btn mobile_submit_5">Напитки</button>
+                    <button class="btn mobile_submit_6">Коктейли</button>
+                    <button class="btn mobile_submit_7">Завтраки</button>
+                    <button class="btn mobile_submit_8">Салаты</button>
+                    <button class="btn mobile_submit_9">Вайнахская кухня</button>
+                    <button class="btn mobile_submit_10">Основные блюда</button>
+                    <button class="btn mobile_submit_11">Пасты</button>
+                    <button class="btn mobile_submit_12">Супы</button>
+                </div>
+                <button class="menu_links-button-mobile" id="menu_links_button_1">Категории</button>
+                <button class="menu_links-button-mobile d-none" id="menu_links_button_2">Скрыть</button>
+            </div>
+            <div class="cards cards_number_1">
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Стейк Томагавк</span>
+                    <span class="price price-margin_2">850 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_1">Подробнее</button>
+                </div>
+
+                <div data-target="s_1" class="slot_info" id="info_1">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Стейк Рибай</span>
+                    <span class="price price-margin_1">750 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_2">Подробнее</button>
+                </div>
+
+                <div data-target="s_2" class="slot_info" id="info_2">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_3">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Стейк Филь (миньон)</span>
+                    <span class="price price-margin_2">650 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_3">Подробнее</button>
+                </div>
+
+                <div data-target="s_3" class="slot_info" id="info_3">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_4">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Стейк<br>из сёмги</span>
+                    <span class="price price-margin_2">590 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_4">Подробнее</button>
+                </div>
+
+                <div data-target="s_4" class="slot_info" id="info_4">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Дорадо</span>
+                    <span class="price price-margin_1">600 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_5">Подробнее</button>
+                </div>
+
+                <div data-target="s_5" class="slot_info" id="info_5">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Шашлык из баранины</span>
+                    <span class="price price-margin_2">500 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_6">Подробнее</button>
+                </div>
+
+                <div data-target="s_6" class="slot_info" id="info_6">
+                    <p class="info-text">зorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_7">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Антрекот из баранины</span>
+                    <span class="price price-margin_2">570 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_7">Подробнее</button>
+                </div>
+
+                <div data-target="s_7" class="slot_info" id="info_7">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Шашлык из курицы</span>
+                    <span class="price price-margin_2">310 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_8">Подробнее</button>
+                </div>
+
+                <div data-target="s_8" class="slot_info" id="info_8">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_9">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Говяжье ребро су-вид</span>
+                    <span class="price price-margin_2">460 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_9">Подробнее</button>
+                </div>
+
+                <div data-target="s_9" class="slot_info" id="info_9">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <span class="btn-block">
+                    <button id="show-more_1" type="button">Показать ещё</button>
+                </span>
+            </div>
+
+            <div class="cards cards_number_2 d-none">
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Рис</span>
+                    <span class="price price-margin_1">160 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_10">Подробнее</button>
+                </div>
+
+                <div data-target="s_10" class="slot_info" id="info_1">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Картофельное пюре</span>
+                    <span class="price price-margin_2">150 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_11">Подробнее</button>
+                </div>
+
+                <div data-target="s_11" class="slot_info" id="info_2">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_3">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Гречка</span>
+                    <span class="price price-margin_1">150 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_12">Подробнее</button>
+                </div>
+
+                <div data-target="s_12" class="slot_info" id="info_3">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_4">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Картоша фри</span>
+                    <span class="price price-margin_1">150 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_13">Подробнее</button>
+                </div>
+
+                <div data-target="s_13" class="slot_info" id="info_4">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Картошка по деревенски</span>
+                    <span class="price price-margin_2">150 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_14">Подробнее</button>
+                </div>
+
+                <div data-target="s_14" class="slot_info" id="info_5">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+            </div>
+
+            <div class="cards cards_number_3 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Имбирный</span>
+                    <span class="price price-margin_1">70 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_15">Подробнее</button>
+                </div>
+
+                <div data-target="s_15" class="slot_info" id="info_1">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Сырный</span>
+                    <span class="price price-margin_1">70 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_16">Подробнее</button>
+                </div>
+
+                <div data-target="s_16" class="slot_info" id="info_2">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_3">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Красный</span>
+                    <span class="price price-margin_1">70 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_17">Подробнее</button>
+                </div>  
+
+                <div data-target="s_17" class="slot_info" id="info_3">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_4">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Острый</span>
+                    <span class="price price-margin_1">70 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_18">Подробнее</button>
+                </div>
+
+                <div data-target="s_18" class="slot_info" id="info_4">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Белый "Тартар"</span>
+                    <span class="price price-margin_2">70 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_19">Подробнее</button>
+                </div>
+
+                <div data-target="s_19" class="slot_info" id="info_5">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+            </div>
+
+            <div class="cards cards_number_4 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Чёрный чай</span>
+                    <span class="price price-margin_1">250 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_20">Подробнее</button>
+                </div>
+
+                <div data-target="s_20" class="slot_info" id="info_1">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Таёжный<br>сбор</span>
+                    <span class="price price-margin_2">250 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_21">Подробнее</button>
+                </div>
+
+                <div data-target="s_21" class="slot_info" id="info_2">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_3">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">1001 ночь</span>
+                    <span class="price price-margin_1">270 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_22">Подробнее</button>
+                </div>  
+
+                <div data-target="s_22" class="slot_info" id="info_3">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_4">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Веницианская ночь</span>
+                    <span class="price price-margin_2">260 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_23">Подробнее</button>
+                </div>
+
+                <div data-target="s_23" class="slot_info" id="info_4">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Зелёный</span>
+                    <span class="price price-margin_1">250 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_24">Подробнее</button>
+                </div>
+
+                <div data-target="s_24" class="slot_info" id="info_5">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Малиново- имбирный</span>
+                    <span class="price price-margin_2">280 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_25">Подробнее</button>
+                </div>
+
+                <div data-target="s_25" class="slot_info" id="info_6">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_7">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Фруктовый</span>
+                    <span class="price price-margin_1">290 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_26">Подробнее</button>
+                </div>
+
+                <div data-target="s_26" class="slot_info" id="info_7">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+            </div>
+
+            <div class="cards cards_number_5 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Махито классический</span>
+                    <span class="price price-margin_2">200/500 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_27">Подробнее</button>
+                </div>
+
+                <div data-target="s_27" class="slot_info" id="info_1">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Махито клубничный</span>
+                    <span class="price price-margin_2">200/500 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_28">Подробнее</button>
+                </div>
+
+                <div data-target="s_28" class="slot_info" id="info_2">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_3">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Лимонад ананасовый</span>
+                    <span class="price price-margin_2">200/500 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_29">Подробнее</button>
+                </div> 
+                
+                <div data-target="s_29" class="slot_info" id="info_3">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_4">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Лимонад цитрусовый</span>
+                    <span class="price price-margin_2">200/500 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_30">Подробнее</button>
+                </div>
+
+                <div data-target="s_30" class="slot_info" id="info_4">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Манго-маракуйя</span>
+                    <span class="price price-margin_2">200/500 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_31">Подробнее</button>
+                </div>
+
+                <div data-target="s_31" class="slot_info" id="info_5">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Голубая<br>лагуна</span>
+                    <span class="price price-margin_2">200/500 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_32">Подробнее</button>
+                </div>
+
+                <div data-target="s_32" class="slot_info" id="info_6">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+            </div>
+
+            <div class="cards cards_number_6 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Шоколадный</span>
+                    <span class="price price-margin_1">200 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_33">Подробнее</button>
+                </div>
+
+                <div data-target="s_33" class="slot_info" id="info_1">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Клубничный</span>
+                    <span class="price price-margin_1">200 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_34">Подробнее</button>
+                </div>
+
+                <div data-target="s_34" class="slot_info" id="info_2">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_3">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Банановый</span>
+                    <span class="price price-margin_1">200 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_35">Подробнее</button>
+                </div> 
+                
+                <div data-target="s_35" class="slot_info" id="info_3">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_4">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Ванильный</span>
+                    <span class="price price-margin_1">200 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_36">Подробнее</button>
+                </div>
+
+                <div data-target="s_36" class="slot_info" id="info_4">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Сникерс</span>
+                    <span class="price price-margin_1">200 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_37">Подробнее</button>
+                </div>
+
+                <div data-target="s_37" class="slot_info" id="info_5">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Баунти</span>
+                    <span class="price price-margin_1">280 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_38">Подробнее</button>
+                </div>
+
+                <div data-target="s_38" class="slot_info" id="info_6">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+            </div>
+
+            <div class="cards cards_number_7 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Вайнахский завтрак</span>
+                    <span class="price price-margin_2">320 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_39">Подробнее</button>
+                </div>
+
+                <div data-target="s_39" class="slot_info" id="info_1">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Английский завтрак</span>
+                    <span class="price price-margin_2">350 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_40">Подробнее</button>
+                </div>
+
+                <div data-target="s_40" class="slot_info" id="info_2">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_3">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Брускетта с лососем</span>
+                    <span class="price price-margin_2">310 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_41">Подробнее</button>
+                </div> 
+                
+                <div data-target="s_41" class="slot_info" id="info_3">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_4">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Брускетта с перцем</span>
+                    <span class="price price-margin_2">260 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_42">Подробнее</button>
+                </div>
+
+                <div data-target="s_42" class="slot_info" id="info_4">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Блины классические</span>
+                    <span class="price price-margin_2">180 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_43">Подробнее</button>
+                </div>
+
+                <div data-target="s_43" class="slot_info" id="info_5">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Блины с лососем</span>
+                    <span class="price price-margin_2">320 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_44">Подробнее</button>
+                </div>
+
+                <div data-target="s_44" class="slot_info" id="info_6">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_7">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Симит с лососем</span>
+                    <span class="price price-margin_2">180 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_45">Подробнее</button>
+                </div>
+
+                <div data-target="s_45" class="slot_info" id="info_7">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Симит с индейкой</span>
+                    <span class="price price-margin_2">320 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_46">Подробнее</button>
+                </div>
+
+                <div data-target="s_46" class="slot_info" id="info_8">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_9">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Яйцо пашот</span>
+                    <span class="price price-margin_1">240 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_47">Подробнее</button>
+                </div>
+
+                <div data-target="s_47" class="slot_info" id="info_9">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_10">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Яичница глазунья</span>
+                    <span class="price price-margin_2">180 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_48">Подробнее</button>
+                </div>
+
+                <div data-target="s_48" class="slot_info" id="info_10">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_11">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Сырники</span>
+                    <span class="price price-margin_1">240 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_49">Подробнее</button>
+                </div>
+
+                <div data-target="s_49" class="slot_info" id="info_11">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+            </div>
+
+            <div class="cards cards_number_8 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Цезарь с креветками</span>
+                    <span class="price price-margin_2">460 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_50">Подробнее</button>
+                </div>
+
+                <div data-target="s_50" class="slot_info" id="info_1">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Цезарь с курицей</span>
+                    <span class="price price-margin_2">390 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_51">Подробнее</button>
+                </div>
+
+                <div data-target="s_51" class="slot_info" id="info_2">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_3">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Греческий</span>
+                    <span class="price price-margin_1">360 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_52">Подробнее</button>
+                </div> 
+                
+                <div data-target="s_52" class="slot_info" id="info_3">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_4">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Хрустящий баклажан</span>
+                    <span class="price price-margin_2">340 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_53">Подробнее</button>
+                </div>
+
+                <div data-target="s_53" class="slot_info" id="info_4">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Капрезе</span>
+                    <span class="price price-margin_1">360 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_54">Подробнее</button>
+                </div>
+
+                <div data-target="s_54" class="slot_info" id="info_5">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Овощная нарезка</span>
+                    <span class="price price-margin_2">300 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_55">Подробнее</button>
+                </div>
+
+                <div data-target="s_55" class="slot_info" id="info_6">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_7">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Салат "Боул"</span>
+                    <span class="price price-margin_1">440 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_56">Подробнее</button>
+                </div>
+
+                <div data-target="s_56" class="slot_info" id="info_7">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Нежный</span>
+                    <span class="price price-margin_1">260 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_57">Подробнее</button>
+                </div>
+
+                <div data-target="s_57" class="slot_info" id="info_8">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_9">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">"FAJR"</span>
+                    <span class="price price-margin_1">460 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_58">Подробнее</button>
+                </div>
+
+                <div data-target="s_58" class="slot_info" id="info_9">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+            </div>
+
+            <div class="cards cards_number_9 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Мясо с галушками</span>
+                    <span class="price price-margin_2">560 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_59">Подробнее</button>
+                </div>
+                
+                <div data-target="s_59" class="slot_info" id="info_1">
+                    <p class="info-text">зorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Сушёное<br>мясо</span>
+                    <span class="price price-margin_2">610 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_60">Подробнее</button>
+                </div>
+
+                <div data-target="s_60" class="slot_info" id="info_2">
+                    <p class="info-text">зorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_3">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Курица с галушками</span>
+                    <span class="price price-margin_2">480 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_61">Подробнее</button>
+                </div>  
+
+                <div data-target="s_61" class="slot_info" id="info_3">
+                    <p class="info-text">зorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_4">i
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Курзе<br>с мясом</span>
+                    <span class="price price-margin_2">320 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_62">Подробнее</button>
+                </div>
+
+                <div data-target="s_62" class="slot_info" id="info_4">
+                    <p class="info-text">зorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Вареники с творогом</span>
+                    <span class="price price-margin_2">240 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_63">Подробнее</button>
+                </div>
+
+                <div data-target="s_63" class="slot_info" id="info_5">
+                    <p class="info-text">зorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Вареники с картофелем</span>
+                    <span class="price price-margin_2">210 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_64">Подробнее</button>
+                </div>
+
+                <div data-target="s_64" class="slot_info" id="info_6">
+                    <p class="info-text">зorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_7">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">ЧIапилг с творогом</span>
+                    <span class="price price-margin_2">160 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_65">Подробнее</button>
+                </div>
+
+                <div data-target="s_65" class="slot_info" id="info_7">
+                    <p class="info-text">зorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">ЧIапилг с картофелем</span>
+                    <span class="price price-margin_2">130 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_66">Подробнее</button>
+                </div>
+
+                <div data-target="s_66" class="slot_info" id="info_8">
+                    <p class="info-text">зorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_9">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Хингал с тыквой</span>
+                    <span class="price price-margin_2">150 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_67">Подробнее</button>
+                </div>
+
+                <div data-target="s_67" class="slot_info" id="info_9">
+                    <p class="info-text">зorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_10">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Сискал<br>къодар</span>
+                    <span class="price price-margin_2">450 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_68">Подробнее</button>
+                </div>
+
+                <div data-target="s_68" class="slot_info" id="info_10">
+                    <p class="info-text">зorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+            </div>
+
+            <div class="cards cards_number_10 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Грудинка по арабски</span>
+                    <span class="price price-margin_2">350 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_69">Подробнее</button>
+                </div>
+
+                <div data-target="s_69" class="slot_info" id="info_1">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Бефстроганов</span>
+                    <span class="price price-margin_1">390 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_70">Подробнее</button>
+                </div>
+
+                <div data-target="s_70" class="slot_info" id="info_2">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_3">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Мято по-тайски</span>
+                    <span class="price price-margin_2">440 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_71">Подробнее</button>
+                </div> 
+                
+                <div data-target="s_71" class="slot_info" id="info_3">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_4">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Лагман</span>
+                    <span class="price price-margin_1">320 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_72">Подробнее</button>
+                </div>
+
+                <div data-target="s_72" class="slot_info" id="info_4">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Сливочное филе курицы</span>
+                    <span class="price price-margin_2">410 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_73">Подробнее</button>
+                </div>
+
+                <div data-target="s_73" class="slot_info" id="info_5">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Сёмга в соусе с икрой</span>
+                    <span class="price price-margin_2">410 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_74">Подробнее</button>
+                </div>
+
+                <div data-target="s_74" class="slot_info" id="info_6">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_7">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Филе в соусе терияки</span>
+                    <span class="price price-margin_2">390 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_75">Подробнее</button>
+                </div>
+
+                <div data-target="s_75" class="slot_info" id="info_7">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Жаркое по-домашнему</span>
+                    <span class="price price-margin_2">360 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_76">Подробнее</button>
+                </div>
+
+                <div data-target="s_76" class="slot_info" id="info_8">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_9">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Ребро говядины</span>
+                    <span class="price price-margin_2">480 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_77">Подробнее</button>
+                </div>
+
+                <div data-target="s_77" class="slot_info" id="info_9">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_10">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Галушки в соусе том-ям</span>
+                    <span class="price price-margin_2">370 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_78">Подробнее</button>
+                </div>
+
+                <div data-target="s_78" class="slot_info" id="info_10">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_11">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Грибное филе курицы</span>
+                    <span class="price price-margin_2">360 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_79">Подробнее</button>
+                </div>
+
+                <div data-target="s_79" class="slot_info" id="info_11">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Котлеты по киевски</span>
+                    <span class="price price-margin_2">240 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_80">Подробнее</button>
+                </div>
+
+                <div data-target="s_80" class="slot_info" id="info_12">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+            </div>
+
+            <div class="cards cards_number_11 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Вок терияки</span>
+                    <span class="price price-margin_1">310 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_81">Подробнее</button>
+                </div>
+
+                <div data-target="s_81" class="slot_info" id="info_1">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Сливочный фетучини</span>
+                    <span class="price price-margin_2">330 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_82">Подробнее</button>
+                </div>
+
+                <div data-target="s_82" class="slot_info" id="info_2">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_3">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Кунжутовый фетучини</span>
+                    <span class="price price-margin_2">340 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_83">Подробнее</button>
+                </div>  
+
+                <div data-target="s_83" class="slot_info" id="info_3">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_4">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Морской фетучини</span>
+                    <span class="price price-margin_2">320 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_84">Подробнее</button>
+                </div>
+
+                <div data-target="s_84" class="slot_info" id="info_4">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+            </div>
+
+            <div class="cards cards_number_12 d-none">
+            
+                <div class="card" id="card-antimargit_1">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Том-ям</span>
+                    <span class="price price-margin_1">510 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_85">Подробнее</button>
+                </div>
+
+                <div data-target="s_85" class="slot_info" id="info_1">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Грибной суп-пюре</span>
+                    <span class="price price-margin_2">230 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_86">Подробнее</button>
+                </div>
+
+                <div data-target="s_86" class="slot_info" id="info_2">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_3">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Чечевичный</span>
+                    <span class="price price-margin_1">180 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_87">Подробнее</button>
+                </div> 
+                
+                <div data-target="s_87" class="slot_info" id="info_3">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_4">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_1">Куриный</span>
+                    <span class="price price-margin_1">210 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_88">Подробнее</button>
+                </div>
+
+                <div data-target="s_88" class="slot_info" id="info_4">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+
+                <div class="card" id="card-antimargit_5">
+                    <img src="images/photo.jpg" class="card-image">
+                    <span class="card-name card-name-margin_2">Уха по-царски</span>
+                    <span class="price price-margin_2">470 р</span>
+                    <button class="card-button dropdown-toggle" data-path="s_89">Подробнее</button>
+                </div>
+
+                <div data-target="s_89" class="slot_info" id="info_5">
+                    <p class="info-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde esse consequatur sequi, eum voluptatum eaque eius deleniti optio quia magnam tenetur porro fugit ab distinctio iusto. Nulla id aliquam autem!</p>
+                </div>
+            </div>
+        </div>
+        <img src="images/line.png" class="line">
+    </div>
+
+    <div class="map_block" id="map">
+            <div class="map-block_content">
+                <img src="images/line.png" class="line">
+                <h1 class="map-h1">Карта</h1>
+                <a href="#" class="map-link">Г. Назрань.<br class="map_br"> Проспект Базоркина 116</a>
+                <a href="#" class="map"><img src="images/map.png" class="map-img"></a>
+                <span class="map-info">!  Нажмите на карту,<br class="map_br"> чтобы открыть google maps</span>
+                <img src="images/line.png" class="line">
+            </div>
+    </div>
+    
+    <footer class="footer" id="footer">
+        <div class="footer-content_block">
+            <img src="images/footer_logo.png" class="footer-logo">
+            <span class="footer-text">Контакты</span>
+            <a href="#" class="social-position_1"><img src="images/call_logo.png" class="social"></a>
+            <a href="#" class="social-position_2"><img src="images/insta_logo.png" class="social"></a>
+        </div>
+    </footer>
+
+    <script src="script/index.js"></script>
+    <script src="script/links.js"></script>
+</body>
+</html>
